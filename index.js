@@ -2,7 +2,7 @@ let Button = document.getElementById("button");
 let CounterVariable = document.getElementById("counter-varible");
 let ContainerText = document.getElementById("text");
 
-//Evento al recargar la pagina
+//Evento al recargar la pagina_
 window.onload = function () {
   fetch("https://api.adviceslip.com/advice", {})
     .then((response) => response.json())
